@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(93, 167, 194);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+.input-field{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input, label{
+    height: 25px;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  outline: none;
+  width: auto;
+  border: 1px solid gray;
+}
+
+h1, p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
